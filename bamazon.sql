@@ -11,32 +11,32 @@ CREATE TABLE Products (
   stockQuantity int NOT NULL
 );
 
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
+INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
 VALUES (875160, "Refrigerator", "Appliances", 2397.00, 5);
 
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
+INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
 VALUES (673897, "Electric Range", "Appliances", 439.00, 12);
 
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
+INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
 VALUES (615477, "Toilet", "Bathroom", 178.00, 20);
 
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
+INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
 VALUES (142553, "Pedestal Sink", "Bathroom", 58.00, 15);
 
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
+INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
 VALUES (771553, "Bathtub", "Bathroom", 1169.00, 2);
 
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
+INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
 VALUES (871322, "Turkey Frier", "Outdoor", 49.99, 20);
 
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
+INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
 VALUES (748080, "Gas Grill", "Outdoor",269.00, 8);
 
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
+INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
 VALUES (806258, "Gass Grill Cover", "Outdoor", 79.99, 10);
 
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
+INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
 VALUES (484307, "Wheelbarrow", "Garden", 49.98, 13);
 
-INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity) 
+INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
 VALUES (229788 , "Shark Kitty Bed", "Garden", 14.98, 25);
