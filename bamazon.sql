@@ -12,7 +12,7 @@ CREATE TABLE Products (
 );
 
 INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
-VALUES (875160, "Refrigerator", "Appliances", 2397.00, 5);
+VALUES (875160, "Refrigerator", "Appliances", 997.00, 5);
 
 INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
 VALUES (673897, "Electric Range", "Appliances", 439.00, 12);
@@ -24,7 +24,7 @@ INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity)
 VALUES (142553, "Pedestal Sink", "Bathroom", 58.00, 15);
 
 INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
-VALUES (771553, "Bathtub", "Bathroom", 1169.00, 2);
+VALUES (771553, "Bathtub", "Bathroom", 869.00, 2);
 
 INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
 VALUES (871322, "Turkey Frier", "Outdoor", 49.99, 20);
@@ -39,4 +39,4 @@ INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity)
 VALUES (484307, "Wheelbarrow", "Garden", 49.98, 13);
 
 INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
-VALUES (229788 , "Shark Kitty Bed", "Garden", 14.98, 25);
+VALUES (229788 , "Shovel", "Garden", 14.98, 25);
