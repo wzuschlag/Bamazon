@@ -10,12 +10,16 @@
 
 ###### launch program at command prompt > node bamazonCustomer.js
 
-Used mysql workbench to create the initial invetory list for a hardware store. 
+Using mysql workbench and file bamazon.sql to create the initial invetory list for a hardware store. 
 
 ![initial inventory](/screenshots/initInventory.png)
 
-following screen shows the kick off of the bamazon app from a command prompt window.
->> node bamazonCustomer.js
+following screen shows the kick off of the bamazon app from a command prompt window.  
+To launch the app just type the following at the prompt.
+
+> node bamazonCustomer.js
+
+Notice that the data in the table matches that of the bamazon database in previous screenshot.
 
 ![opening screen](/screenshots/openingScreen.png)
 
