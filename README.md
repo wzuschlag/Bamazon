@@ -10,6 +10,7 @@
 
 ###### launch program at command prompt > node bamazonCustomer.js
 
+Used mysql workbench to create the initial invetory list for a hardware store. 
 ![initial inventory](/screenshots/initInventory.png)
 
 ![opening screen](/screenshots/openingScreen.png)
