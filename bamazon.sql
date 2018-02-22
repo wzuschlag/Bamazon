@@ -3,40 +3,45 @@ CREATE DATABASE bamazonDB;
 
 USE bamazonDB;
 
-CREATE TABLE Products (
-  itemID int NOT NULL,
-  productName varchar(50) NOT NULL,
-  departmentName varchar(50) NOT NULL,
-  price DECIMAL(5,2) NOT NULL,
-  stockQuantity int NOT NULL
-);
+DROP TABLE IF EXISTS products;
 
-INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
-VALUES (875160, "Refrigerator", "Appliances", 997.00, 5);
+CREATE TABLE products (
+	PRIMARY KEY(itemID), 
+	itemID INTEGER(5) AUTO_INCREMENT NOT NULL, 
+	product_name VARCHAR(50), 
+	department_name VARCHAR(100), 
+	item_cost FLOAT(10),
+	stock_quantity INTEGER(5)
+	);
 
-INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
-VALUES (673897, "Electric Range", "Appliances", 439.00, 12);
+INSERT INTO Products (productName, departmentName, price, stockQuantity) 
+VALUES ("Refrigerator", "Appliances", 997.00, 5);
 
-INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
-VALUES (615477, "Toilet", "Bathroom", 178.00, 20);
+INSERT INTO Products (productName, departmentName, price, stockQuantity) 
+VALUES ("Electric Range", "Appliances", 439.00, 12);
 
-INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
-VALUES (142553, "Pedestal Sink", "Bathroom", 58.00, 15);
+INSERT INTO Products (productName, departmentName, price, stockQuantity) 
+VALUES ("Toilet", "Bathroom", 178.00, 20);
 
-INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
-VALUES (771553, "Bathtub", "Bathroom", 869.00, 2);
+INSERT INTO Products (productName, departmentName, price, stockQuantity) 
+VALUES ("Pedestal Sink", "Bathroom", 58.00, 15);
 
-INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
-VALUES (871322, "Turkey Frier", "Outdoor", 49.99, 20);
+INSERT INTO Products (productName, departmentName, price, stockQuantity) 
+VALUES ("Bathtub", "Bathroom", 869.00, 2);
 
-INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
-VALUES (748080, "Gas Grill", "Outdoor",269.00, 8);
+INSERT INTO Products (productName, departmentName, price, stockQuantity) 
+VALUES ("Turkey Frier", "Outdoor", 49.99, 20);
 
-INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
-VALUES (806258, "Gass Grill Cover", "Outdoor", 79.99, 10);
+INSERT INTO Products (productName, departmentName, price, stockQuantity) 
+VALUES ("Gas Grill", "Outdoor",269.00, 8);
 
-INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
-VALUES (484307, "Wheelbarrow", "Garden", 49.98, 13);
+INSERT INTO Products (productName, departmentName, price, stockQuantity) 
+VALUES ("Gass Grill Cover", "Outdoor", 79.99, 10);
 
-INSERT INTO Products (itemID, productName, departmentName, price, stockQuantity) 
-VALUES (229788 , "Shovel", "Garden", 14.98, 25);
+INSERT INTO Products (productName, departmentName, price, stockQuantity) 
+VALUES ("Wheelbarrow", "Garden", 49.98, 13);
+
+INSERT INTO Products (productName, departmentName, price, stockQuantity) 
+VALUES ("Shovel", "Garden", 14.98, 25);
+
+SELECT * FROM products;
