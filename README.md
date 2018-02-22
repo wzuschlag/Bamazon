@@ -8,4 +8,6 @@
 * prompt
 * request
 
-######launch program at command prompt > node bamazonCustomer.js
+###### launch program at command prompt > node bamazonCustomer.js
+
+![initial inventory](/screenshots/initInventory.png)
