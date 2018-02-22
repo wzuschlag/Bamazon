@@ -23,7 +23,7 @@ Notice that the data in the table matches that of the bamazon database in previo
 ![opening screen](/screenshots/openingScreen.png)
 
 This screen shows the first order being processed. 
-App request the customer to enter an item ID # and quantity for purchase.
+App requests the customer to enter an item ID # and quantity for purchase.
 Once inputs are made the app rebuilds the DB reducing the stock inventory.
 
 This example illustrates item 6 (turkey frier) selling 3 units and the stock quantitiy reduced by 3 (20 to 17). 
@@ -33,7 +33,8 @@ This screen shot shows that inventory is lacking to purchase 3 of item 5 (Bathtu
 to assist the customer at making a new choice.
 ![inventory low](/screenshots/inventoryLow.png)
 
-Final screen shows app can handle invalid user inputs.  invalid item ID # and entering non-numeric chars.
+Final screen shows app can handle invalid user inputs.  invalid item ID # or entering non-numeric chars.
+Also shows that 5 shovels were purchased and stock inventory was adjusted. 
 ![invalid entry ie. wrong itemID or letters](/screenshots/invalidEntries.png)
 
 Thank you 
