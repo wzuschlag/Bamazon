@@ -7,3 +7,4 @@
 * cli-table
 * prompt
 * request
+######launch program at command prompt > node bamazonCustomer.js
