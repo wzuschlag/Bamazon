@@ -5,9 +5,17 @@
 * mysql
 * inquirer
 * cli-table
-* prompt
-* request
+* prompt (optional)
+* request (optional)
 
 ###### launch program at command prompt > node bamazonCustomer.js
 
 ![initial inventory](/screenshots/initInventory.png)
+
+![opening screen](/screenshots/openingScreen.png)
+
+![first order](/screenshots/firstOrder.png)
+
+![inventory low](/screenshots/inventoryLow.png)
+
+![invalid entry ie. wrong itemID or letters](/screenshots/invalidEntries.png)
