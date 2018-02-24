@@ -37,5 +37,5 @@ Final screen shows app can handle invalid user inputs.  invalid item ID # or ent
 Also shows that 5 shovels were purchased and stock inventory was adjusted. 
 ![invalid entry ie. wrong itemID or letters](/screenshots/invalidEntries.png)
 
-Thank you 
+Thank you  
 
